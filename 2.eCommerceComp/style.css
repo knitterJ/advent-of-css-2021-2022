@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+.bg__top-right{
+    position: absolute;
+    top: 0; 
+    right: 0;
+    max-height: 300px; 
+    max-width: 400px;
+}
+
+.bg__btm-right{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    max-height: 300px;
+}
+
+.bg__left{
+    position: absolute;
+    left: 0px; 
+    bottom: 10vh;
+    max-height: 400px; 
+}
+
+.rectangle_container{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    padding: 100px;
+}
+
+/* take care of the mobile version once you have more time */
+
+.menu_main_rectangle{
+    background: black;
+    width:375px;
+    border-radius: 1.5rem;
+    position: relative;
+    padding: 32px;   
+
+    /* characteristics of the font */
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.menu__item__text {
+    color: white;
+}
+
+h3{
+    color: white;
+}
