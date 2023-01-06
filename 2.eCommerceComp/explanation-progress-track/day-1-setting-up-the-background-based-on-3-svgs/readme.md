@@ -9,7 +9,7 @@ The background of the project is composed of 3 images/blobs, so first question i
 
 There are basically two ways of providing the links to the images.
 
-### a) First (straightforward and easy) way - via HTML 
+### a) First straightforward and easy way - via HTML
 
 `<img class="bg__left" src="images/bg__left.svg"/>`
 
@@ -56,6 +56,7 @@ Here's the working code for someone who'd like to define svg image this way:
 
 ```
 .bg__top-right{
+  background: url("images/bg__left.svg")
   background-repeat: no-repeat
   background-position: center left
   background-size: contain
