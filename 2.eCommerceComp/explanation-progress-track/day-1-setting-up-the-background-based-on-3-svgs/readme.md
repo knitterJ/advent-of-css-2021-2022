@@ -50,7 +50,7 @@ In this case, apart from providing position of the image (like in the first show
   <li>background-size: contain;</li>
 </ul>
 
-so you need to generate more lines of code and uderstand the topic well, in order to achieve the same effect as in the point `[a)](### b) Second way - via CSS property background: url())`
+so you need to generate more lines of code and uderstand the topic well, in order to achieve the same effect as in the point [a)](<# b) Second way - via CSS property background: url()>)
 
 >*`Background-size: contain` should be used to scale the background image and to make sure the entire image is visible. It prevents the image from being distorted or overstreched.*
 
