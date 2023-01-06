@@ -20,6 +20,8 @@ Then in CSS, define the position of the image and make it independent from super
     position: absolute;
     top: 10px; 
     right: 20px;
+    
+    /* not obligatory if the image is properly sized by the designer */
     max-height: 500px; 
     max-width: 600px;
     scale: 1.2;
@@ -56,9 +58,9 @@ Here's the working code for someone who'd like to define svg image this way:
 
 ```
 .bg__top-right{
+  /*All the properties provided below are obligatory*/
   background: url("images/bg__left.svg")
   background-repeat: no-repeat
-  background-position: center left
   background-size: contain
   position: absolute
   left: 0
