@@ -2,24 +2,40 @@
 
 ![Ready day 1](https://github.com/knitterJ/advent-of-css-2021-2022/blob/master/2.eCommerceComp/explanation-progress-track/day-1-setting-up-the-background-based-on-3-svgs/images/ready-day-1.png)
 
-h1. Setting the background
+h1. Setting the background 1 
 
-The background of the project is set up with 3 images/blobs
+The background of the project is composed of 3 images/blobs
 
-h2. How to provide links to the images?
+h2. How to provide links to the images? 2
 
 There are basically two ways of providing the links to the images.
 
-h3. First (straightforward way that I chose) is via HTML
+h3. First (straightforward and easy) - via HTML 3
+
+<code><img class="bg__left" src="images/bg__left.svg"/></code>
+
+Then in CSS, I defined position of the image and made it independent from superior elements by position: absolute;
+
+<code>
+.bg__top-right{
+    position: absolute;
+    top: 10px; 
+    right: 20px;
+    max-height: 500px; 
+    max-width: 600px;
+    scale: 1.2;
+}
+</code>
+
 
 
 <blockquote>
-Absolute positioning allow you to define exact location of an element on a page, regardless of others (the element becomes independent from others). Use absolute positioning to set the exact location of for example a background image on a page, even if the content and other elements of the page change.
+Absolute positioning allow you to define exact location of an element on a page, regardless of other elements (the element becomes independent from others). Use absolute positioning to set the exact location of for example of a background image on a page. Even if the content and other elements of the page change, it'll stay in the same absolute position.
 </blockquote>
 
 
 
-h3. Second way is via CSS property background: url()
+h3. Second way - via CSS property background: url()
 <code>
 .bg__top-right{
 background: url("images/bg__left.svg")
