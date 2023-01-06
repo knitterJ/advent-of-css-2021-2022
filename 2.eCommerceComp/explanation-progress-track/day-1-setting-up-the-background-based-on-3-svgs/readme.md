@@ -1,5 +1,5 @@
 
-# 1. Setting the background 
+# 1. Setting up the background 
 
 ![Ready day 1](https://github.com/knitterJ/advent-of-css-2021-2022/blob/master/2.eCommerceComp/explanation-progress-track/day-1-setting-up-the-background-based-on-3-svgs/images/ready-day-1.png)
 
