@@ -35,7 +35,7 @@ Then in CSS, define the position of the image and make it independent from super
 
 ### b) Second way - via CSS property background: url()
 ```
-.bg__top-right{
+.bg__top-right {
 background: url("images/bg__left.svg")
 }
 ```
@@ -54,8 +54,7 @@ so you need to generate more lines of code and uderstand the topic well, in orde
 
 >*`Background-size: contain` should be used to scale the background image and to make sure the entire image is visible. It prevents the image from being distorted or overstreched.*
 
-Here's the working code for someone who'd like to define svg image this way
-
+Here's the working code for someone who'd like to define svg image this way:
 
 ```
 .bg__top-right{
@@ -67,4 +66,5 @@ Here's the working code for someone who'd like to define svg image this way
   top: 40vh
   height: 40vh
   width: 20vw
+}
 ```
