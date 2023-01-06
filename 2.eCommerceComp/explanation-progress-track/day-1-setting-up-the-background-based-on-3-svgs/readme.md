@@ -3,11 +3,9 @@
 
 ![Ready day 1](https://github.com/knitterJ/advent-of-css-2021-2022/blob/master/2.eCommerceComp/explanation-progress-track/day-1-setting-up-the-background-based-on-3-svgs/images/ready-day-1.png)
 
-
-
 The background of the project is composed of 3 images/blobs, so first question in the project is:
 
-## How to provide links to the images and how to position the 3 images?
+## How to provide links to the images and how to position the 3 given images?
 
 There are basically two ways of providing the links to the images.
 
