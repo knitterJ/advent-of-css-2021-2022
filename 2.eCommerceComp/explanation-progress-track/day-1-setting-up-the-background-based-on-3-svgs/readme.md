@@ -50,13 +50,14 @@ In this case, apart from providing position of the image (like in the first show
   <li>background-size: contain;</li>
 </ul>
 
-so you need to generate more lines of code and uderstand the topic well, in order to achieve the same effect as in the point [a)](<#b-second-way---via-css-property-background-url>)
+so you need to generate more lines of code and uderstand the topic well, in order to achieve the same effect as shown in the point [a)](<#a-first-straightforward-and-easy-way---via-html>)
 
 >*`Background-size: contain` should be used to scale the background image and to make sure the entire image is visible. It prevents the image from being distorted or overstreched.*
 
 Here's the working code for someone who'd like to define svg image this way
-<code>
 
+
+```
 .bg__top-right{
   background-repeat: no-repeat
   background-position: center left
@@ -66,4 +67,4 @@ Here's the working code for someone who'd like to define svg image this way
   top: 40vh
   height: 40vh
   width: 20vw
-</code>
+```
