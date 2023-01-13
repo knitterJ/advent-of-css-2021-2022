@@ -21,7 +21,7 @@ Then in CSS, define the position of the image and make it independent from super
     top: 10px; 
     right: 20px;
     
-    /* not obligatory if the image is properly sized by the designer */
+    /* not obligatory */
     max-height: 500px; 
     max-width: 600px;
     scale: 1.2;
