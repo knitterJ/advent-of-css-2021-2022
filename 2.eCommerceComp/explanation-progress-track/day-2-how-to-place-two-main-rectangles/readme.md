@@ -7,4 +7,6 @@ Next step was to locate two rectangular and blank tiles in the middle of the who
 
 ## How to create a container for the blank squares?
 
-## 
+justify content 
+
+## flex column is the key 
