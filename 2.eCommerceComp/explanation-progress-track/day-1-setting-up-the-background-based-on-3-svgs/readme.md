@@ -28,7 +28,7 @@ Then in CSS, define the position of the image and make it independent from super
 }
 ```
 
->*Absolute positioning allow you to define exact location of an element on a page, regardless of other elements (the element becomes independent from others). Use **absolute positioning** to set the exact location of for example of a background image on a page. **Even if the content and other elements of the page change, it'll stay in the same absolute position.**
+>*Absolute positioning allow you to define exact location of an element on a page, regardless of other elements (the element becomes independent from >others). Use **absolute positioning** to set the exact location of for example of a background image on a page. **Even if the content and other elements >of the page change, it'll stay in the same absolute position.**
 
 
 
